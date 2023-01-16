@@ -25,13 +25,11 @@ N/A
 
 Please click the generate password button and follow the on-screen instructions to get a secure password generated!
 
-Provide instructions and examples for use. Include screenshots as needed. 
+The deployed application should look like the following images:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+<img width="1430" alt="Screenshot 2023-01-16 at 8 05 41 PM" src="https://user-images.githubusercontent.com/119468426/212617832-a0544e0a-3347-4217-b440-11c32713208b.png">
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+<img width="1214" alt="Screenshot 2023-01-16 at 8 06 06 PM" src="https://user-images.githubusercontent.com/119468426/212617854-293d8b4f-ccad-4226-a30e-c092865e35cd.png">
 
 
 ## Credits
