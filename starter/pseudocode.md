@@ -7,13 +7,20 @@
 
  
 <!-- Present a series of prompts for password criteria -->
+- Create a characterOption function that creates a new array when the user returns a boolean value for inclusion of each character option.
 - 
+
+
+
+
 
 - prompt the user for 
   1. passwordLength (number between 10 and 64) 
-      IF passwordLength is less than 10 or more than 64:
-        THEN alert the user and restart prompt
-      ELSE (between 10-64), store answer in variable called passwordLength
+  (parseInt(prompt("Please choose length of password that is between 10-64 characters")))
+      Create a Fn of:
+      IF passwordLength is less than 10 or (||) passwordLength more than 64:
+      ALERT the user and RETURN prompt
+      ELSE , RETURN passwordLength
       "Please choose length of password that is between 10-64 characters"
 
   
