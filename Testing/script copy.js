@@ -94,19 +94,9 @@ var upperCasedCharacters = [
 
 
 
-// Function to prompt user for password options 
-function getPasswordLengthOptions() {
-  let passwordLength = parseInt(prompt("Please choose length of password that is between 10-64 characters."));
-  if (passwordLength < 10 || passwordLength > 64) {
-    alert(" You have chosen a password that is less than 10 or more than 64. Please choose length of password that is between 10-64 characters.");
-    return getPasswordLengthOptions();
-  }
-  else {
-    return passwordLength;
-  };
-}
+// prompt can input anything
+// confirm is boolean
 
-// Function to prompt user for password character options 
 function characterOptions() {
   let chosenChar = []
 
@@ -134,8 +124,46 @@ function characterOptions() {
 }
 
 
+// IF USER CLICKS OK, THEY ARE ABLE TO PROCEED.
+
+
+// Function to prompt user for password options 
+function getPasswordLengthOptions() {
+  let passwordLength = parseInt(prompt("Please choose length of password that is between 10-64 characters."));
+  if (passwordLength < 10 || passwordLength > 64) {
+    alert(" You have chosen a password that is less than 10 or more than 64. Please choose length of password that is between 10-64 characters.");
+    return getPasswordLengthOptions();
+  }
+  else {
+    return passwordLength;
+  };
+}
+
+// REDO PROMPT PLENGTH
+
+
+// function getPasswordCharacterOptions() {
+//   {
+//     while (characterOptions.specialChar == TRUE) {
+//       characterOptions
+
+//     }
+
+//   }
+// }
+
+
+
+
+// Function for getting a random element from an array
+function getRandom(arr) {
+
+}
+
 // Function to generate password with user input 
 function generatePassword() {
+
+  // PUT INPUT HERE
   let pwLength = getPasswordLengthOptions();
   let choices = characterOptions();
   let password = "";
@@ -150,6 +178,11 @@ function generatePassword() {
 }
 
 
+// Math.floor(Math.random usually used together
+
+
+
+///////////////DONT DO ANYTHING BELOlenW HERE ////
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
